@@ -1,0 +1,48 @@
+.headHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #262626;
+  padding: 1rem;
+  min-width: 225px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.headHeader * {
+  color: white;
+}
+
+.headHeader > * {
+  padding: 1rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.navList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.navList * {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact {
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 1em 2em;
+  margin-top: 10px;
+  margin-left: 1em;
+}
+
+.cafeImage {
+  object-fit: cover;
+  width: 100%;
+}
